@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --exec npm run babel-node --  ./bin/www",
+    "start": "npm run babel-node --  ./bin/www",
     "babel-node": "babel-node"
   },
   "dependencies": {
@@ -16,9 +16,11 @@
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "express": "~4.16.1",
+    "filestack-js": "^3.9.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "puppeteer": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
